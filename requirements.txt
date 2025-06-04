@@ -1,5 +1,7 @@
-fastapi
-email-validator
-pydantic[email]
-python-multipart
-google-genai
+fastapi==0.109.2
+uvicorn==0.27.1
+email-validator==2.1.0.post1
+pydantic[email]==2.6.1
+python-multipart==0.0.9
+google-genai==1.18.0
+python-dotenv==1.0.1
