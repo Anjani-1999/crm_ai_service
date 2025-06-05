@@ -32,5 +32,5 @@ COPY . .
 # Expose the port the app runs on
 EXPOSE ${PORT}
 
-# Command to run the application
+# Command to run the applications
 CMD uvicorn main:app --host 0.0.0.0 --port ${PORT}
